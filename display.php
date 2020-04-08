@@ -1,6 +1,6 @@
 <?php
 
-include "class_lib.php";
+include "Quadratic.php";
 if ($_SERVER['REQUEST_METHOD'] == "POST") {
     $a = $_REQUEST['a'];
     $b = $_REQUEST['b'];
